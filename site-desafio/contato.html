@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/poppins" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <title>Contato</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <a class="logo" href="home.html" title="logo">Willian Lopes.</a>
+
+
+        <!--Menu-->
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html"> Sobre mim </a></li>
+                <li><a href="contato.html"> Contato </a></li>
+                <li><a href="interesses.html"> Interesses </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo do Site -->
+    <h1>Formulário de Contato</h1>
+
+    <form onsubmit="validarSubmit(event)">
+        <div class="form-item">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" />
+        </div>
+        <div class="form-item">
+            <label for="name">Sobrenome:</label>
+            <input type="text" id="surname" />
+        </div>
+        <div class="form-item">
+            <label for="mail">E-mail:</label>
+            <input type="text" id="email" />
+        </div>
+        <div class="form-item">
+            <label for="msg">Idade:</label>
+            <input type="number" id="age"></input>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
